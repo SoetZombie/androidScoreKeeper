@@ -107,10 +107,16 @@ public class MainActivity extends AppCompatActivity {
     }
     public void optionsTeamA(View view){
         setContentView(R.layout.foulsteama);
+        displayFoulsTeamA(foulsTeamA);
+        displayRedCardsTeamA(redCardsTeamA);
+        displayYellowCardsTeamA(yellowCardsTeamA);
     }
 
     public void optionsTeamB(View view){
         setContentView(R.layout.foulsteamb);
+        displayFoulsTeamB(foulsTeamB);
+        displayRedCardsTeamB(redCardsTeamB);
+        displayYellowCardsTeamB(yellowCardsTeamB);
     }
 
     public void back (View view){
