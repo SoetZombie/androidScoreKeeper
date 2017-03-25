@@ -1,0 +1,15 @@
+
+
+    <!-- Base application theme. -->
+    <resources>
+        <!-- Base application theme. -->
+    <style name="your_own_name" parent="Theme.AppCompat.Light.NoActionBar">
+
+            <!-- Primary theme color of the app (sets background color of app bar) -->
+            <item name="colorPrimary">#D95959</item>
+            <!-- Background color of buttons in the app -->
+            <item name="colorButtonNormal">#5ADA5A</item>
+        </style>
+
+    </resources>
+
